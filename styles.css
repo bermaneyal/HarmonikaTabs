@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Song List */
+  #song-list-container, #song-container {
+    display: none;
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  #song-list-container.active, #song-container.active {
+    display: block;
+  }
+  
+  ul#song-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  ul#song-list li {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  ul#song-list li:hover {
+    background: #45a049;
+  }
+  
+  /* Song Display */
+  #song-title {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  #lyrics-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .row-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .word-note-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .note {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FF5722;
+    margin-bottom: 5px;
+  }
+  
+  .word {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Back Button */
+  .back-button {
+    background: #FF5722;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .back-button:hover {
+    background: #e64a19;
+  }
+
+  #youtube-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  #youtube-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  [dir="rtl"] {
+    text-align: right;
+  }
+  
+  [dir="ltr"] {
+    text-align: left;
+  }
+  

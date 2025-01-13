@@ -1,0 +1,17 @@
+[
+    [
+      { "word": "Mary", "note": "4" },
+      { "word": "had", "note": "-3" },
+      { "word": "a", "note": "3" },
+      { "word": "little", "note": "4" }
+    ],
+    [
+      { "word": "lamb", "note": "4" },
+      { "word": "its", "note": "3" },
+      { "word": "fleece", "note": "-3" },
+      { "word": "was", "note": "2" },
+      { "word": "white", "note": "4" },
+      { "word": "as", "note": "5" },
+      { "word": "snow", "note": "-5" }
+    ]
+  ]

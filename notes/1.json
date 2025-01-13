@@ -1,0 +1,16 @@
+[
+    [
+      { "word": "Twinkle", "note": "4" },
+      { "word": "twinkle", "note": "4" },
+      { "word": "little", "note": "-4" },
+      { "word": "star", "note": "-4" }
+    ],
+    [
+      { "word": "How", "note": "5" },
+      { "word": "I", "note": "5" },
+      { "word": "wonder", "note": "-5" },
+      { "word": "what", "note": "-5" },
+      { "word": "you", "note": "-5" },
+      { "word": "are", "note": "6" }
+    ]
+  ]

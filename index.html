@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harmonica Helper</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>🎵 Harmonica Helper 🎶</h1>
+
+  <div id="song-list-container" class="active">
+    <h2>Select a Song</h2>
+    <input
+      type="text"
+      id="search-songs"
+      placeholder="Search songs..."
+      style="margin-bottom: 15px; width: 100%; padding: 10px; font-size: 1rem;"
+    />
+    <ul id="song-list"></ul>
+  </div>
+
+  <div id="song-container">
+    <h2 id="song-title"></h2>
+    <div id="lyrics-container"></div>
+    <div id="youtube-container" style="margin-top: 20px;"></div>
+    <button class="back-button" onclick="showSongList()">Back to Song List</button>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
